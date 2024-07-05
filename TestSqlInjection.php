@@ -3,7 +3,7 @@
   require_once __DIR__ . "/GetConnection.php";
 
   $connection = getConnection();
-  $username = "admin";
+  $username = "admin'; #";
   $password = "admin";
 
   $sql = "SELECT *FROM admin WHERE username='$username' AND password='$password'";
